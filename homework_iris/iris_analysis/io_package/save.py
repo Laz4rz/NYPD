@@ -1,3 +1,7 @@
+'''
+Module containing functions to csv the file
+'''
+
 from typing import Dict
 
 

@@ -1,3 +1,7 @@
+'''
+Module containing functions to calculate the statistics from the file
+'''
+
 from typing import Dict
 from statistics import stdev, mean, median
 

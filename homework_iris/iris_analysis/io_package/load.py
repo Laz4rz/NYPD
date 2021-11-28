@@ -1,3 +1,7 @@
+'''
+Module containing functions to load the file
+'''
+
 import csv
 from typing import Dict, List
 

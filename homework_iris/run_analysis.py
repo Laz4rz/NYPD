@@ -1,6 +1,12 @@
+'''
+Main analysis script
+'''
+
 import argparse
 
 from iris_analysis import load_csv, save_csv, get_statistics
+
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
