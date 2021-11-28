@@ -17,14 +17,10 @@ def filter_columns(d: Dict) -> Dict:
 def calculate(d: Dict) -> Dict:
     value = {'mean':0, 'median':0, 'std':0}
     result_dict = dict(zip(d.keys(), [value.copy(), value.copy(), value.copy()]))
-    print(d.keys())
-    print(result_dict)
     for key in d.keys():
-        print(key)
         result_dict[key]['mean'] = mean(d[key])
         result_dict[key]['median'] = median(d[key])
         result_dict[key]['std'] = stdev(d[key])
-        print(result_dict)
     return result_dict
 
 
