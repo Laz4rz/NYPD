@@ -31,7 +31,7 @@ polityka_map = {
 }
 
 
-def szyfruj(string: str, cipher: Dict) -> str:
+def encode(string: str, cipher: Dict) -> str:
     return ''.join(list(map(lambda x: cipher.get(x.upper(), x.upper()), string)))
 
 
